@@ -105,8 +105,6 @@ for idx, exp in enumerate(experiments):
     if result:
         steps, final_x, iterations = result
         results.append([f"Start: {exp[1]}, LR: {exp[2]}, Iter: {exp[3]}", final_x, iterations])
-        # Plot convergence for each experiment
-        gd.plot_convergence(steps)  # Added to show convergence for each run
 
 # Print the results in a table format
 print(tabulate(results, headers=headers, tablefmt="grid"))

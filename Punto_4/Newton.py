@@ -40,7 +40,7 @@ class GeneralizedNewtonMethod:
 if __name__ == '__main__':
     headers = ["Experiment", "x_0", "Iterations", "f(x)"]
     x = symbols('x')
-    func = 2*x - ln(x)
+    func = 4*x-15*x**2-10
     results=[]
 
     experiments = [

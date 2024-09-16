@@ -1,6 +1,44 @@
 # Laboratorio-1-experimentos-con-problemas-de-optimizaci-n
 Laboratorio I Optimización 
 
+## Punto 1
+#### Problema de Optimización: Minimización del Costo de Producción
+
+#### Descripción
+
+Una empresa produce dos tipos de productos, \( P_1 \) y \( P_2 \), que requieren recursos limitados. El objetivo es minimizar el costo total de producción sujeto a restricciones de recursos.
+
+#### Función objetivo:
+El costo total de producción es la suma de los costos de producir \( P_1 \) y \( P_2 \):
+\[
+C(x, y) = 5x^2 + 8y^2
+\]
+donde:
+- \( x \): cantidad producida de \( P_1 \)
+- \( y \): cantidad producida de \( P_2 \)
+
+El objetivo es minimizar \( C(x, y) \).
+
+#### Restricciones:
+La producción de \( P_1 \) y \( P_2 \) está limitada por los siguientes recursos:
+
+1. **Recurso A**: se limita a 40 unidades. Cada unidad de \( P_1 \) consume 2 unidades de A, y cada unidad de \( P_2 \) consume 3 unidades de A.
+   \[
+   2x + 3y \leq 40
+   \]
+
+2. **Recurso B**: se limita a 36 unidades. Cada unidad de \( P_1 \) consume 4 unidades de B, y cada unidad de \( P_2 \) consume 2 unidades de B.
+   \[
+   4x + 2y \leq 36
+   \]
+
+#### Objetivo:
+Encontrar los valores óptimos de \( x \) y \( y \) que minimicen el costo total \( C(x, y) \) respetando las restricciones de los recursos.
+
+#### Gráfica de la Región Factible
+
+La región factible para este problema es la intersección de las restricciones. El gráfico muestra dicha región sombreada.
+
 ## Conclusiones Punto 4
 ### Gradient Descent
 
