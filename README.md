@@ -39,6 +39,28 @@ Encontrar los valores óptimos de \( x \) y \( y \) que minimicen el costo total
 
 La región factible para este problema es la intersección de las restricciones. El gráfico muestra dicha región sombreada.
 
+## Punto 2
+### Series de Taylor
+#### Descripción
+Este proyecto proporciona una interfaz gráfica de usuario (GUI) para graficar expansiones en series de Taylor de funciones matemáticas comunes. La GUI está construida usando `tkinter`, y los cálculos matemáticos se realizan utilizando `sympy` y `numpy`. Los gráficos resultantes se muestran utilizando `matplotlib`.
+
+#### Características
+- Selección de una lista de funciones comunes: `sin(x)`, `cos(x)`, `exp(x)`, `log(1 + x)`, y `1 / (1 - x)`.
+- Entrada del punto de expansión (`a`) y el número de términos (`n`) para la serie de Taylor.
+- Graficar la expansión en serie de Taylor junto con la función original.
+
+#### Cómo Usar
+1. Ejecuta el script.
+2. Selecciona la función que deseas expandir desde el menú desplegable.
+3. Ingresa el punto de expansión (`a`) y el número de términos (`n`).
+4. Haz clic en el botón "Graficar" para generar y mostrar el gráfico.
+
+#### Dependencias
+- `numpy`
+- `matplotlib`
+- `sympy`
+- `tkinter`
+
 ## Conclusiones Punto 4
 ### Gradient Descent
 
