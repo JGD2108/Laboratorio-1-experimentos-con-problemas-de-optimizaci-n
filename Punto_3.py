@@ -28,8 +28,10 @@ def convert_to_coo():
     row, col = np.nonzero(matriz)
     data = matriz[row, col]
     matrix_coo = coo_matrix((data, (row, col)), shape=matriz.shape)
-
-    result_text.set(f"NZ: {non_zeros}\nIF: {indice_i}\nIC: {indice_j}\n\nMatriz en formato COO:\n{matrix_coo.toarray()}")
+    
+    coo_str = "\n".join([f"({i}, {j})\t{v}" for i, j, v in zip(matrix_coo.row, matrix_coo.col, matrix_coo.data)])
+    
+    result_text.set(f"NZ: {non_zeros}\nIF: {indice_i}\nIC: {indice_j}\n\nMatriz en formato COO:\n{coo_str}")
 
 window = tk.Tk()
 window.title("COO Format Converter")

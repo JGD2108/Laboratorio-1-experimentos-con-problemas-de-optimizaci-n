@@ -2,9 +2,9 @@ import tkinter as tk
 from tkinter import ttk
 import sympy as sp
 import numpy as np
-from Punto_4.Newton import GeneralizedNewtonMethod
-from Punto_4.GD import GradientDescent
-from Punto_4.GA import GeneticAlgorithm
+from Newton import GeneralizedNewtonMethod
+from GD import GradientDescent
+from GA import GeneticAlgorithm
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 

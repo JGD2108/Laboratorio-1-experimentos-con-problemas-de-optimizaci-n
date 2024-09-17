@@ -61,6 +61,30 @@ Este proyecto proporciona una interfaz gráfica de usuario (GUI) para graficar e
 - `sympy`
 - `tkinter`
 
+## Punto 3
+### Convertidor de Formato COO
+#### Descripción
+- Este proyecto proporciona una interfaz gráfica de usuario (GUI) para convertir una matriz densa en formato de almacenamiento por coordenadas (COO). La GUI está construida usando tkinter, y los cálculos se realizan utilizando numpy y scipy.sparse.
+
+#### Características
+- Entrada de una matriz densa de 4x4.
+- Conversión de la matriz densa al formato COO.
+- Visualización de los valores no nulos (NZ), índices de fila (IF) e índices de columna (IC) de la matriz en formato COO.
+- Visualización de la matriz en formato COO.
+
+##### Cómo Usar
+- Ejecuta el script.
+- Ingresa los valores de la matriz en los campos de entrada correspondientes.
+- Haz clic en el botón "Convertir a COO" para realizar la conversión.
+- Los resultados se mostrarán en la parte inferior de la ventana.
+#### Dependencias
+'numpy'
+'scipy'
+'tkinter'
+
+
+#### Conclusión
+- Este proyecto demuestra cómo utilizar varias bibliotecas de Python para crear una herramienta interactiva que facilita la conversión de matrices densas al formato COO. El uso de tkinter para la GUI, numpy para el manejo de matrices, y scipy.sparse para la conversión al formato COO, hace que esta aplicación sea útil y educativa.
 ## Conclusiones Punto 4
 ### Gradient Descent
 
